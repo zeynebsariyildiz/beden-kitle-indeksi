@@ -10,11 +10,13 @@ namespace beden_kitle_indeksi
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Adınızı giriniz:");
+            Console.ReadLine();
             Console.WriteLine ("Kilonuzu Giriniz");
             int kilo = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("Boyunuzu Giriniz");
-         double boy =  Convert.ToDouble(Console.ReadLine());
+            double boy =  Convert.ToDouble(Console.ReadLine());
 
             double bke = kilo / (boy * boy);
 
